@@ -1,0 +1,1 @@
+./semester|grep -n last-modified:|cut -f 3-5 -d ":" > last-modified.txt|mv last-modified.txt /$HOME
